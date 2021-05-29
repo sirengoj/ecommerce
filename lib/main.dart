@@ -3,28 +3,28 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/order/order_details_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/brand_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/cart_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/category_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/chat_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/coupon_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/localization_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/notification_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/onboarding_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/order_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/profile_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/search_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/seller_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/support_ticket_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/theme_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/wishlist_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/theme/dark_theme.dart';
-import 'package:flutter_sixvalley_ecommerce/theme/light_theme.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/app_constants.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/splash/splash_screen.dart';
+import 'package:face4biz/view/screen/order/order_details_screen.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/provider/brand_provider.dart';
+import 'package:face4biz/provider/cart_provider.dart';
+import 'package:face4biz/provider/category_provider.dart';
+import 'package:face4biz/provider/chat_provider.dart';
+import 'package:face4biz/provider/coupon_provider.dart';
+import 'package:face4biz/provider/localization_provider.dart';
+import 'package:face4biz/provider/notification_provider.dart';
+import 'package:face4biz/provider/onboarding_provider.dart';
+import 'package:face4biz/provider/order_provider.dart';
+import 'package:face4biz/provider/profile_provider.dart';
+import 'package:face4biz/provider/search_provider.dart';
+import 'package:face4biz/provider/seller_provider.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/provider/support_ticket_provider.dart';
+import 'package:face4biz/provider/theme_provider.dart';
+import 'package:face4biz/provider/wishlist_provider.dart';
+import 'package:face4biz/theme/dark_theme.dart';
+import 'package:face4biz/theme/light_theme.dart';
+import 'package:face4biz/utill/app_constants.dart';
+import 'package:face4biz/view/screen/splash/splash_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'di_container.dart' as di;
@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
       _locals.add(Locale(language.languageCode, language.countryCode));
     });
     return MaterialApp(
-      title: 'sixValley',
+      title: 'Face4biz',
       navigatorKey: navigatorKey,
       debugShowCheckedModeBanner: false,
       theme: Provider.of<ThemeProvider>(context).darkTheme ? dark : light,

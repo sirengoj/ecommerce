@@ -1,31 +1,31 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/chat/inbox_screen.dart';
+import 'package:face4biz/view/screen/chat/inbox_screen.dart';
 
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/profile_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/theme_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/animated_custom_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/guest_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/cart/cart_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/category/all_category_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/more/web_view_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/more/widget/app_info_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/more/widget/sign_out_confirmation_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/notification/notification_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/offer/offers_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/order/order_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/profile/address_list_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/profile/profile_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/setting/settings_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/support/support_ticket_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/wishlist/wishlist_screen.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/provider/profile_provider.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/provider/theme_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/animated_custom_dialog.dart';
+import 'package:face4biz/view/basewidget/guest_dialog.dart';
+import 'package:face4biz/view/screen/cart/cart_screen.dart';
+import 'package:face4biz/view/screen/category/all_category_screen.dart';
+import 'package:face4biz/view/screen/more/web_view_screen.dart';
+import 'package:face4biz/view/screen/more/widget/app_info_dialog.dart';
+import 'package:face4biz/view/screen/more/widget/sign_out_confirmation_dialog.dart';
+import 'package:face4biz/view/screen/notification/notification_screen.dart';
+import 'package:face4biz/view/screen/offer/offers_screen.dart';
+import 'package:face4biz/view/screen/order/order_screen.dart';
+import 'package:face4biz/view/screen/profile/address_list_screen.dart';
+import 'package:face4biz/view/screen/profile/profile_screen.dart';
+import 'package:face4biz/view/screen/setting/settings_screen.dart';
+import 'package:face4biz/view/screen/support/support_ticket_screen.dart';
+import 'package:face4biz/view/screen/wishlist/wishlist_screen.dart';
 import 'package:provider/provider.dart';
 
 class MoreScreen extends StatelessWidget {
@@ -60,7 +60,8 @@ class MoreScreen extends StatelessWidget {
           child: Consumer<ProfileProvider>(
             builder: (context, profile, child) {
               return Row(children: [
-                Image.asset(Images.logo_with_name_image, height: 35, color: ColorResources.WHITE),
+                Text("Nesst", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),),
+                // Image.asset(Images.logo_with_name_image, height: 35, color: ColorResources.WHITE),
                 Expanded(child: SizedBox.shrink()),
                 InkWell(
                   onTap: () {

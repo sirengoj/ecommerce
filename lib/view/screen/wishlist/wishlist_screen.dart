@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/search_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/wishlist_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/no_internet_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/not_loggedin_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/search_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/wishlist/widget/wishlist_widget.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/provider/search_provider.dart';
+import 'package:face4biz/provider/wishlist_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/view/basewidget/no_internet_screen.dart';
+import 'package:face4biz/view/basewidget/not_loggedin_widget.dart';
+import 'package:face4biz/view/basewidget/search_widget.dart';
+import 'package:face4biz/view/screen/wishlist/widget/wishlist_widget.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
 

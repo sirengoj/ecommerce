@@ -1,4 +1,4 @@
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
+import 'package:face4biz/data/model/response/product_model.dart';
 
 class OrderDetailsModel {
   int _id;

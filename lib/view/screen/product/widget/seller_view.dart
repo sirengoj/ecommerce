@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/seller_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/animated_custom_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/guest_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/title_row.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/chat/chat_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/seller/seller_screen.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/provider/seller_provider.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/animated_custom_dialog.dart';
+import 'package:face4biz/view/basewidget/guest_dialog.dart';
+import 'package:face4biz/view/basewidget/title_row.dart';
+import 'package:face4biz/view/screen/chat/chat_screen.dart';
+import 'package:face4biz/view/screen/seller/seller_screen.dart';
 import 'package:provider/provider.dart';
 
 class SellerView extends StatelessWidget {

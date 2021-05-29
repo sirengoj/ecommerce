@@ -223,7 +223,7 @@ class Product {
         _colors.add(new ProductColors.fromJson(v));
       });
     }
-    _variantProduct = json['variant_product'];
+    _variantProduct = json['variant_product'].toString();
     if(json['attributes'] != null) {
       _attributes = json['attributes'].cast<String>();
     }

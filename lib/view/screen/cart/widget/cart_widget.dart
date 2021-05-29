@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/cart_model.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/price_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/cart_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
+import 'package:face4biz/data/model/response/cart_model.dart';
+import 'package:face4biz/helper/price_converter.dart';
+import 'package:face4biz/provider/cart_provider.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
 import 'package:provider/provider.dart';
 
 class CartWidget extends StatelessWidget {

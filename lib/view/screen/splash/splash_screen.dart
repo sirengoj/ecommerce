@@ -1,17 +1,17 @@
 import 'dart:async';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/cart_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/theme_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/no_internet_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/dashboard/dashboard_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/onboarding/onboarding_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/splash/widget/splash_painter.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/provider/cart_provider.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/provider/theme_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/no_internet_screen.dart';
+import 'package:face4biz/view/screen/dashboard/dashboard_screen.dart';
+import 'package:face4biz/view/screen/onboarding/onboarding_screen.dart';
+import 'package:face4biz/view/screen/splash/widget/splash_painter.dart';
 import 'package:provider/provider.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -94,7 +94,8 @@ class _SplashScreenState extends State<SplashScreen> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Image.asset(Images.splash_logo, height: 250.0, fit: BoxFit.scaleDown, width: 250.0),
+                Text("Nesst", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),)
+                //Image.asset(Images.splash_logo, height: 250.0, fit: BoxFit.scaleDown, width: 250.0),
               ],
             ),
           ),

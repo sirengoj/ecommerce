@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/cart_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/cart_repo.dart';
+import 'package:face4biz/data/model/response/cart_model.dart';
+import 'package:face4biz/data/repository/cart_repo.dart';
 
 class CartProvider extends ChangeNotifier {
   final CartRepo cartRepo;

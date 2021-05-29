@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/theme_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/custom_expanded_app_bar.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/animated_custom_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/setting/widget/currency_dialog.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/provider/theme_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/custom_expanded_app_bar.dart';
+import 'package:face4biz/view/basewidget/animated_custom_dialog.dart';
+import 'package:face4biz/view/screen/setting/widget/currency_dialog.dart';
 import 'package:provider/provider.dart';
 
 class SettingsScreen extends StatelessWidget {

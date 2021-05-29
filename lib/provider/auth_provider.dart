@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/login_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/register_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/error_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/response_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/auth_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
+import 'package:face4biz/data/model/body/login_model.dart';
+import 'package:face4biz/data/model/body/register_model.dart';
+import 'package:face4biz/data/model/response/base/api_response.dart';
+import 'package:face4biz/data/model/response/base/error_response.dart';
+import 'package:face4biz/data/model/response/response_model.dart';
+import 'package:face4biz/data/repository/auth_repo.dart';
+import 'package:face4biz/helper/api_checker.dart';
 
 class AuthProvider with ChangeNotifier {
   final AuthRepo authRepo;

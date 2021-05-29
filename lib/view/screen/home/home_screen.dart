@@ -1,28 +1,28 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_sixvalley_ecommerce/helper/product_type.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/banner_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/brand_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/cart_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/category_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/flash_deal_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/product_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/title_row.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/brand/all_brand_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/cart/cart_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/category/all_category_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/home/widget/banners_view.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/home/widget/brand_view.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/home/widget/category_view.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/home/widget/flash_deals_view.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/home/widget/products_view.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/flashdeal/flash_deal_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/search/search_screen.dart';
+import 'package:face4biz/helper/product_type.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/banner_provider.dart';
+import 'package:face4biz/provider/brand_provider.dart';
+import 'package:face4biz/provider/cart_provider.dart';
+import 'package:face4biz/provider/category_provider.dart';
+import 'package:face4biz/provider/flash_deal_provider.dart';
+import 'package:face4biz/provider/product_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/title_row.dart';
+import 'package:face4biz/view/screen/brand/all_brand_screen.dart';
+import 'package:face4biz/view/screen/cart/cart_screen.dart';
+import 'package:face4biz/view/screen/category/all_category_screen.dart';
+import 'package:face4biz/view/screen/home/widget/banners_view.dart';
+import 'package:face4biz/view/screen/home/widget/brand_view.dart';
+import 'package:face4biz/view/screen/home/widget/category_view.dart';
+import 'package:face4biz/view/screen/home/widget/flash_deals_view.dart';
+import 'package:face4biz/view/screen/home/widget/products_view.dart';
+import 'package:face4biz/view/screen/flashdeal/flash_deal_screen.dart';
+import 'package:face4biz/view/screen/search/search_screen.dart';
 import 'package:provider/provider.dart';
 import 'dart:ui';
 
@@ -40,7 +40,6 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     _loadData(context, false);
-
 
     return Scaffold(
       backgroundColor: ColorResources.getHomeBg(context),
@@ -64,7 +63,7 @@ class HomePage extends StatelessWidget {
                 centerTitle: false,
                 automaticallyImplyLeading: false,
                 backgroundColor: Theme.of(context).accentColor,
-                title: Image.asset(Images.logo_with_name_image, height: 35, color: ColorResources.getPrimary(context)),
+                title:  Text("Nesst", style: TextStyle(color:  Theme.of(context).primaryColor, fontWeight: FontWeight.bold, fontSize: 48),),
                 actions: [IconButton(
                   onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (_) => CartScreen()));

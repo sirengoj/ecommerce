@@ -1,7 +1,7 @@
-import 'package:flutter_sixvalley_ecommerce/data/model/response/language_model.dart';
+import 'package:face4biz/data/model/response/language_model.dart';
 
 class AppConstants {
-  static const String BASE_URL = 'https://demo.6amtech.com/6valley/';
+  static const String BASE_URL = 'https://face4biz.winammedia.com/';
   static const String USER_ID = 'userId';
   static const String NAME = 'name';
   static const String CATEGORIES_URI = 'api/v1/categories';
@@ -73,7 +73,7 @@ class AppConstants {
   static const String COUNTRY_CODE = 'country_code';
   static const String LANGUAGE_CODE = 'language_code';
   static const String THEME = 'theme';
-  static const String TOPIC = 'sixvalley';
+  static const String TOPIC = 'nesst';
 
   static List<LanguageModel> languages = [
     LanguageModel(imageUrl: '', languageName: 'English', countryCode: 'US', languageCode: 'en'),

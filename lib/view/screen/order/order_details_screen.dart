@@ -2,29 +2,29 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/seller/seller_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/order_details.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/order_model.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/view/screen/seller/seller_screen.dart';
+import 'package:face4biz/data/model/response/order_details.dart';
+import 'package:face4biz/data/model/response/order_model.dart';
 
-import 'package:flutter_sixvalley_ecommerce/helper/price_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/order_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/profile_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/seller_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/amount_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/button/custom_button.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/custom_app_bar.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/custom_loader.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/show_custom_snakbar.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/title_row.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/order/widget/order_details_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/payment/payment_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/support/support_ticket_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/tracking/tracking_screen.dart';
+import 'package:face4biz/helper/price_converter.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/order_provider.dart';
+import 'package:face4biz/provider/profile_provider.dart';
+import 'package:face4biz/provider/seller_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/view/basewidget/amount_widget.dart';
+import 'package:face4biz/view/basewidget/button/custom_button.dart';
+import 'package:face4biz/view/basewidget/custom_app_bar.dart';
+import 'package:face4biz/view/basewidget/custom_loader.dart';
+import 'package:face4biz/view/basewidget/show_custom_snakbar.dart';
+import 'package:face4biz/view/basewidget/title_row.dart';
+import 'package:face4biz/view/screen/order/widget/order_details_widget.dart';
+import 'package:face4biz/view/screen/payment/payment_screen.dart';
+import 'package:face4biz/view/screen/support/support_ticket_screen.dart';
+import 'package:face4biz/view/screen/tracking/tracking_screen.dart';
 import 'package:provider/provider.dart';
 
 class OrderDetailsScreen extends StatelessWidget {

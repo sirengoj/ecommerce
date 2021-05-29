@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/product_type.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/product_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/product_shimmer.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/product_widget.dart';
+import 'package:face4biz/data/model/response/product_model.dart';
+import 'package:face4biz/helper/product_type.dart';
+import 'package:face4biz/provider/product_provider.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/view/basewidget/product_shimmer.dart';
+import 'package:face4biz/view/basewidget/product_widget.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:provider/provider.dart';
 

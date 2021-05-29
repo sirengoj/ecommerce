@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/custom_app_bar.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/custom_loader.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/view/basewidget/custom_app_bar.dart';
+import 'package:face4biz/view/basewidget/custom_loader.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class WebViewScreen extends StatefulWidget {

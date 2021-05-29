@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/button/custom_button.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/auth/auth_screen.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/button/custom_button.dart';
+import 'package:face4biz/view/screen/auth/auth_screen.dart';
 import 'package:provider/provider.dart';
 
 class NotLoggedInWidget extends StatelessWidget {

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/network_info.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/chat/inbox_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/localization_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/dashboard/widget/fancy_bottom_nav_bar.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/home/home_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/more/more_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/notification/notification_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/order/order_screen.dart';
+import 'package:face4biz/helper/network_info.dart';
+import 'package:face4biz/view/screen/chat/inbox_screen.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/localization_provider.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/screen/dashboard/widget/fancy_bottom_nav_bar.dart';
+import 'package:face4biz/view/screen/home/home_screen.dart';
+import 'package:face4biz/view/screen/more/more_screen.dart';
+import 'package:face4biz/view/screen/notification/notification_screen.dart';
+import 'package:face4biz/view/screen/order/order_screen.dart';
 import 'package:provider/provider.dart';
 
 class DashBoardScreen extends StatefulWidget {

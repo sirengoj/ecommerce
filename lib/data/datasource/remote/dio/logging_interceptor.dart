@@ -5,9 +5,8 @@ class LoggingInterceptor extends InterceptorsWrapper {
 
   @override
   Future onRequest(RequestOptions options, RequestInterceptorHandler handler) async {
-    print("--> ${options.method} ${options.path}");
+    print("--> ${options.method} ${options.baseUrl} ${options.path}");
     print("Headers: ${options.headers.toString()}");
-    print("<-- END HTTP");
 
     return super.onRequest(options, handler);
   }
@@ -15,7 +14,7 @@ class LoggingInterceptor extends InterceptorsWrapper {
   @override
   Future onResponse(Response response, ResponseInterceptorHandler handler) async {
     print(
-        "<-- ${response.statusCode} ${response.requestOptions.method} ${response.requestOptions.path}");
+        "<-- ${response.statusCode} ${response.data}");
 
     String responseAsString = response.data.toString();
 

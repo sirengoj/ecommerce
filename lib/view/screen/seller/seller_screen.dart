@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/seller_model.dart';
+import 'package:face4biz/data/model/response/seller_model.dart';
 
-import 'package:flutter_sixvalley_ecommerce/helper/product_type.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/product_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/rating_bar.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/search_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/home/widget/products_view.dart';
+import 'package:face4biz/helper/product_type.dart';
+import 'package:face4biz/provider/product_provider.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/rating_bar.dart';
+import 'package:face4biz/view/basewidget/search_widget.dart';
+import 'package:face4biz/view/screen/home/widget/products_view.dart';
 import 'package:provider/provider.dart';
 
 class SellerScreen extends StatelessWidget {

@@ -2,13 +2,13 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/address_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/error_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/response_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/user_info_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/profile_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
+import 'package:face4biz/data/model/response/address_model.dart';
+import 'package:face4biz/data/model/response/base/api_response.dart';
+import 'package:face4biz/data/model/response/base/error_response.dart';
+import 'package:face4biz/data/model/response/response_model.dart';
+import 'package:face4biz/data/model/response/user_info_model.dart';
+import 'package:face4biz/data/repository/profile_repo.dart';
+import 'package:face4biz/helper/api_checker.dart';
 import 'package:http/http.dart' as http;
 
 class ProfileProvider extends ChangeNotifier {

@@ -1,11 +1,11 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/review_body.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/app_constants.dart';
+import 'package:face4biz/data/datasource/remote/dio/dio_client.dart';
+import 'package:face4biz/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:face4biz/data/model/body/review_body.dart';
+import 'package:face4biz/data/model/response/base/api_response.dart';
+import 'package:face4biz/utill/app_constants.dart';
 import 'package:http/http.dart' as http;
 
 class ProductDetailsRepo {

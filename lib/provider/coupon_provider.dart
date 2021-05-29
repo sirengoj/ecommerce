@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/coupon_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/coupon_repo.dart';
+import 'package:face4biz/data/model/response/base/api_response.dart';
+import 'package:face4biz/data/model/response/coupon_model.dart';
+import 'package:face4biz/data/repository/coupon_repo.dart';
 
 class CouponProvider extends ChangeNotifier {
   final CouponRepo couponRepo;

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/wishlist_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/animated_custom_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/guest_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/show_custom_snakbar.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/provider/wishlist_provider.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/animated_custom_dialog.dart';
+import 'package:face4biz/view/basewidget/guest_dialog.dart';
+import 'package:face4biz/view/basewidget/show_custom_snakbar.dart';
 import 'package:provider/provider.dart';
 
 class FavouriteButton extends StatelessWidget {

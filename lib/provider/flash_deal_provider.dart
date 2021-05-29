@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/flash_deal_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/flash_deal_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
+import 'package:face4biz/data/model/response/base/api_response.dart';
+import 'package:face4biz/data/model/response/flash_deal_model.dart';
+import 'package:face4biz/data/model/response/product_model.dart';
+import 'package:face4biz/data/repository/flash_deal_repo.dart';
+import 'package:face4biz/helper/api_checker.dart';
 import 'package:intl/intl.dart';
 
 class FlashDealProvider extends ChangeNotifier {

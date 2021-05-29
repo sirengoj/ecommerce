@@ -1,20 +1,20 @@
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/user_info_model.dart';
+import 'package:face4biz/data/model/response/user_info_model.dart';
 
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/profile_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/theme_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/button/custom_button.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/textfield/custom_password_textfield.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/textfield/custom_textfield.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/provider/profile_provider.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/provider/theme_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/button/custom_button.dart';
+import 'package:face4biz/view/basewidget/textfield/custom_password_textfield.dart';
+import 'package:face4biz/view/basewidget/textfield/custom_textfield.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 

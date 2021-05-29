@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/seller_model.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/date_converter.dart';
+import 'package:face4biz/data/model/response/seller_model.dart';
+import 'package:face4biz/helper/date_converter.dart';
 
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/chat_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/theme_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/no_internet_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/not_loggedin_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/chat/chat_screen.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/provider/chat_provider.dart';
+import 'package:face4biz/provider/splash_provider.dart';
+import 'package:face4biz/provider/theme_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/utill/images.dart';
+import 'package:face4biz/view/basewidget/no_internet_screen.dart';
+import 'package:face4biz/view/basewidget/not_loggedin_widget.dart';
+import 'package:face4biz/view/screen/chat/chat_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
 

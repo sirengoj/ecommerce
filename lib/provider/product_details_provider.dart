@@ -1,13 +1,13 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/review_body.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/response_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/review_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/product_details_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
+import 'package:face4biz/data/model/body/review_body.dart';
+import 'package:face4biz/data/model/response/base/api_response.dart';
+import 'package:face4biz/data/model/response/product_model.dart';
+import 'package:face4biz/data/model/response/response_model.dart';
+import 'package:face4biz/data/model/response/review_model.dart';
+import 'package:face4biz/data/repository/product_details_repo.dart';
+import 'package:face4biz/helper/api_checker.dart';
 import 'package:http/http.dart' as http;
 
 class ProductDetailsProvider extends ChangeNotifier {

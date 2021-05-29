@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/cart_model.dart';
+import 'package:face4biz/data/model/response/cart_model.dart';
 
-import 'package:flutter_sixvalley_ecommerce/helper/price_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/cart_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/animated_custom_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/custom_app_bar.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/guest_dialog.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/no_internet_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/cart/widget/cart_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/checkout/checkout_screen.dart';
+import 'package:face4biz/helper/price_converter.dart';
+import 'package:face4biz/localization/language_constrants.dart';
+import 'package:face4biz/provider/auth_provider.dart';
+import 'package:face4biz/provider/cart_provider.dart';
+import 'package:face4biz/utill/color_resources.dart';
+import 'package:face4biz/utill/custom_themes.dart';
+import 'package:face4biz/utill/dimensions.dart';
+import 'package:face4biz/view/basewidget/animated_custom_dialog.dart';
+import 'package:face4biz/view/basewidget/custom_app_bar.dart';
+import 'package:face4biz/view/basewidget/guest_dialog.dart';
+import 'package:face4biz/view/basewidget/no_internet_screen.dart';
+import 'package:face4biz/view/screen/cart/widget/cart_widget.dart';
+import 'package:face4biz/view/screen/checkout/checkout_screen.dart';
 import 'package:provider/provider.dart';
 
 class CartScreen extends StatelessWidget {
